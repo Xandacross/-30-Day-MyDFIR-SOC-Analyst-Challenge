@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="J3VinR268xuQLQgo21_m">
-    <mxGraphModel>
+    <mxGraphModel dx="1203" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P-YYRTeasXK3WGx8BSoy-1" target="P-YYRTeasXK3WGx8BSoy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-1" value="Windows 10&lt;br&gt;sends Events" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="303" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P-YYRTeasXK3WGx8BSoy-2" target="P-YYRTeasXK3WGx8BSoy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-2" value="wazuh Manager&lt;br&gt;Trigger Alerts and Performs response actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="303" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P-YYRTeasXK3WGx8BSoy-4" target="P-YYRTeasXK3WGx8BSoy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P-YYRTeasXK3WGx8BSoy-4" target="P-YYRTeasXK3WGx8BSoy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-4" value="Shuffle&lt;br&gt;Recieves wazuh alerts and Send responsive actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="303" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-7" value="OSINT&lt;div&gt;Enrich IOCS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="603" y="193" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.522;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-YYRTeasXK3WGx8BSoy-4" target="P-YYRTeasXK3WGx8BSoy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-9" value="HIve&lt;br&gt;Create Alert in Case Management" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="403" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-YYRTeasXK3WGx8BSoy-11" value="Email&lt;br&gt;Send Email and responsive action" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="303" width="200" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
